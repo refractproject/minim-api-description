@@ -26,7 +26,7 @@ export default function (namespace) {
     }
 
     set enumerations(values) {
-      let enumerations;
+      let enumerations
 
       if (values instanceof ArrayElement) {
         enumerations = values;
